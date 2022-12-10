@@ -1,0 +1,22 @@
+.Navbar {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 0 1rem;
+
+  a,
+  .btn-link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navbar-brand {
+    img {
+      width: 62px;
+      height: 16px;
+    }
+  }
+}
